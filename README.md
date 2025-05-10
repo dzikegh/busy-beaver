@@ -12,7 +12,7 @@ First, I will focus on the $BB(2)$ problem. Trying to find the champion and veri
   - [ ] Implement a Space-time diagrams function to visualize the TM.
 
 - [ ] For $n=2$, create naively the dataset of all the 2-state TM in the correct [format](https://bbchallenge.org/method#format) and save them on a binary file.
-- [ ] For $n>2$, create thee dataset using methods like Tree Normal Form (TNF)
+- [ ] For $n>2$, create the dataset using methods like Tree Normal Form (TNF)
 
 - [ ] Implement a Decider for [Translated Cycler TM](https://wiki.bbchallenge.org/wiki/Translated_cycler)
 
