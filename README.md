@@ -5,11 +5,11 @@
 
 First, I will focus on the $BB(2)$ problem. Trying to find the champion and verify the well known result: $BB(2)=6$. Bellow is a list of tasks to achieve this goal:
 
-- [ ] Create ```TuringMachine``` class, $n$-states, $m$-symbol, $0$-all tape: 
+- [x] Create ```TuringMachine``` class, $n$-states, $m$-symbol, $0$-all tape: 
 
   - [x] From a list of string (ex: ```1RB---_1LB1LB```), initialize the machine
-  - [ ] With a time/space limit, run the TM and label it (```HALT```, ```NON-HALT```, ```HOLDOUT```)
-  - [ ] Implement a Space-time diagrams function to visualize the TM.
+  - [x] With a time/space limit, run the TM and label it (```HALT```, ```HOLDOUT```)
+  - [x] Implement a Space-time diagrams function to visualize the TM.
 
 - [ ] For $n=2$, create naively the dataset of all the 2-state TM in the correct [format](https://bbchallenge.org/method#format) and save them on a binary file.
 - [ ] For $n>2$, create the dataset using methods like Tree Normal Form (TNF)
